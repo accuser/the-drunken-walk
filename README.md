@@ -1,5 +1,27 @@
 # Problem: The drunken walk
 
+## Getting started
+
+Clone the repo and install the dependencies:
+
+```bash
+git clone https://github.com/accuser/the-drunken-walk.git
+cd the-drunken-walk
+npm install
+```
+
+To run the simulation with defaults:
+
+```bash
+node index.js
+```
+
+To specify the number of simulation iterations:
+
+```bash
+node index.js --iterations 10000
+```
+
 ## Background
 
 Bob is drunk. He is trying to climb a flight of three stairs: starting from the floor, step 1, step 2, and step 3 is the last one.
